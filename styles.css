@@ -1076,11 +1076,46 @@ footer {
 
 /* ─── RESPONSIVE ─────────────────────────────────────────── */
 @media (max-width: 768px) {
+  .hero-collab {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+  }
+  .hero-title {
+    font-size: clamp(32px, 9.8vw, 48px);
+  }
   .hero-subtitle {
     max-width: 600px;
     width: auto;
     white-space: normal;
+    text-align: center;
+    font-size: clamp(13px, 4.2vw, 16px);
+    line-height: 1.5;
     margin: 0 auto 46px;
+  }
+  .hero-meta {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 12px;
+    max-width: 340px;
+    margin: 0 auto 44px;
+  }
+  .hero-meta-item {
+    width: min(320px, 92%);
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .hero-meta-text strong {
+    font-size: 13px;
+  }
+  .hero-meta-text span {
+    font-size: 11px;
+  }
+  .hero-meta-item:first-child .hero-meta-text span {
+    white-space: nowrap;
+  }
+  .hero-badge {
+    display: none;
   }
   .about-grid {
     grid-template-columns: 1fr;
