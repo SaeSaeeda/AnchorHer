@@ -97,18 +97,22 @@ nav {
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: var(--white);
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 0.04em;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 239, 173, 0.72);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 239, 173, 0.12) 0%,
+    rgba(201, 168, 76, 0.08) 100%
+  );
+  box-shadow: inset 0 0 0 1px rgba(201, 168, 76, 0.28),
+    0 3px 10px rgba(0, 0, 0, 0.25);
 }
-.nav-brand-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--gold-metal);
-  background-size: 200% auto;
+.nav-brand-logo {
+  width: auto;
+  height: 32px;
+  display: block;
 }
 .nav-links {
   display: flex;
@@ -1182,6 +1186,12 @@ footer {
 
 /* ─── RESPONSIVE ─────────────────────────────────────────── */
 @media (max-width: 768px) {
+  .nav-brand {
+    padding: 5px 10px;
+  }
+  .nav-brand-logo {
+    height: 26px;
+  }
   .hero-collab {
     font-size: 9px;
     letter-spacing: 0.12em;
