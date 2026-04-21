@@ -1,29 +1,23 @@
-<svg width="100%" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg">
-  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Anchor Her logo — purple and gold</title>
-  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Wordmark logo in deep purple and gold with a gold mic icon as crossbar centerpiece</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 96" role="img" aria-labelledby="title desc">
+  <title id="title">Anchor Her logo</title>
+  <desc id="desc">One-line logo with ANCHOR, centered mic, and her</desc>
 
   <defs>
     <linearGradient id="goldG" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#FFFFFF"/>
+      <stop offset="0%" stop-color="#C9922A"/>
+      <stop offset="50%" stop-color="#FFEFAD"/>
+      <stop offset="100%" stop-color="#C9922A"/>
     </linearGradient>
-  <mask id="imagine-text-gaps-fddddi" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="200" fill="white"/><rect x="133.85516357421875" y="22.957664489746094" width="395.28741455078125" height="74.55236053466797" fill="black" rx="2"/><rect x="276.1056823730469" y="119.46768951416016" width="133.78866577148438" height="58.040103912353516" fill="black" rx="2"/></mask></defs>
+  </defs>
 
-  <text x="333" y="82" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="bold" letter-spacing="14" fill="#FFFFFF" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:62px;font-weight:700;text-anchor:middle;dominant-baseline:auto">ANCHOR</text>
+  <text x="20" y="62" textLength="190" lengthAdjust="spacingAndGlyphs" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" letter-spacing="0" fill="#FFFFFF">ANCHOR</text>
 
-  <line x1="224" y1="105" x2="333" y2="105" stroke="url(#goldG)" stroke-width="0.9" style="fill:rgb(0, 0, 0);color:rgb(255, 255, 255);stroke-width:0.9px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <line x1="347" y1="105" x2="456" y2="105" stroke="url(#goldG)" stroke-width="0.9" style="fill:rgb(0, 0, 0);color:rgb(255, 255, 255);stroke-width:0.9px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <g transform="translate(231 35)">
+    <rect x="-4.8" y="0.5" width="9.6" height="16" rx="4.8" fill="none" stroke="#D4AA50" stroke-width="1.7"/>
+    <path d="M-8 9.5 Q-8 17 0 17 Q8 17 8 9.5" fill="none" stroke="#D4AA50" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="0" y1="17" x2="0" y2="24" stroke="#D4AA50" stroke-width="1.7" stroke-linecap="round"/>
+    <line x1="-5" y1="24" x2="5" y2="24" stroke="#D4AA50" stroke-width="1.7" stroke-linecap="round"/>
+  </g>
 
-  <polygon points="218,99 224,105 218,111 212,105" fill="#D4AA50" style="fill:rgb(212, 170, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <polygon points="462,99 468,105 462,111 456,105" fill="#D4AA50" style="fill:rgb(212, 170, 80);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-  <rect x="335" y="95" width="10" height="18" rx="5" fill="none" stroke="#D4AA50" stroke-width="1.3" style="fill:none;stroke:rgb(212, 170, 80);color:rgb(255, 255, 255);stroke-width:1.3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <line x1="340" y1="113" x2="340" y2="121" stroke="#D4AA50" stroke-width="1.3" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(212, 170, 80);color:rgb(255, 255, 255);stroke-width:1.3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-  <path d="M334,121 Q334,127 340,127 Q346,127 346,121" fill="none" stroke="#D4AA50" stroke-width="1.3" stroke-linecap="round" mask="url(#imagine-text-gaps-fddddi)" style="fill:none;stroke:rgb(212, 170, 80);color:rgb(255, 255, 255);stroke-width:1.3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-  <text x="343" y="165" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="normal" font-style="italic" letter-spacing="18" fill="#FFFFFF" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:48px;font-weight:400;font-style:italic;text-anchor:middle;dominant-baseline:auto">her</text>
-
-  <line x1="290" y1="175" x2="396" y2="175" stroke="url(#goldG)" stroke-width="0.6" mask="url(#imagine-text-gaps-fddddi)" style="fill:rgb(0, 0, 0);color:rgb(255, 255, 255);stroke-width:0.6px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
+  <text x="254" y="62" textLength="70" lengthAdjust="spacingAndGlyphs" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-style="italic" letter-spacing="0" fill="#D8B4FE">her</text>
 </svg>
