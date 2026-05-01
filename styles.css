@@ -1,13 +1,12 @@
 /* ─── VARIABLES ─────────────────────────────────────────── */
 :root {
-  --purple-dark: #4a1a8c;
-  --purple-main: #7c22d4;
-  --purple-vivid: #9333ea;
-  --purple-bright: #a855f7;
-  --purple-mid: #b57bee;
-  --purple-light: #d8b4fe;
+  --purple-dark: #3e1b5b; /* user: main */
+  --purple-main: #3e1b5b; /* user: main */
+  --purple-vivid: #615de6; /* user: secondary (lighter) */
+  --purple-bright: #615de6; /* user: secondary (lighter) */
+  --purple-mid: #7c4d93; /* user: tertiary */
+  --purple-light: #7c4d93; /* tertiary */
   --purple-pale: #f3e8ff;
-
   /* flat gold fallbacks */
   --gold: #c9a84c;
   --gold-light: #ffefad;
@@ -141,10 +140,10 @@ nav {
   min-height: 100vh;
   background: linear-gradient(
     160deg,
-    #2d0a5c 0%,
-    #5b1a9f 40%,
-    #7c22d4 70%,
-    #4a0e8c 100%
+    var(--purple-dark) 0%,
+    var(--purple-vivid) 40%,
+    var(--purple-main) 70%,
+    var(--purple-dark) 100%
   );
   display: flex;
   flex-direction: column;
@@ -497,7 +496,7 @@ section {
   display: none;
 }
 
-.gold-divider {
+gold-divider {
   width: 80px;
   height: 4px;
   background: var(--gold-shimmer);
@@ -531,7 +530,7 @@ section {
   margin: 0 auto;
 }
 .about-visual {
-  background: linear-gradient(135deg, #5b1a9f, #9333ea);
+  background: linear-gradient(135deg, var(--purple-vivid), var(--purple-main));
   border-radius: 24px;
   padding: 48px 40px;
   position: relative;
@@ -797,7 +796,7 @@ section {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #c4b5fd, #a855f7);
+  background: linear-gradient(135deg, var(--purple-pale), var(--purple-vivid));
   margin: 0 auto 16px;
   outline: 2px solid var(--gold);
   outline-offset: 2px;
@@ -811,7 +810,7 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+  background: linear-gradient(135deg, var(--purple-main), var(--purple-vivid));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -849,7 +848,7 @@ section {
 
 /* ─── PERKS ──────────────────────────────────────────────── */
 .perks {
-  background: linear-gradient(160deg, #3d0f80 0%, #6b21a8 50%, #4a1a8c 100%);
+  background: linear-gradient(160deg, var(--purple-dark) 0%, var(--purple-vivid) 50%, var(--purple-dark) 100%);
 }
 .perks-inner {
   max-width: 960px;
@@ -935,7 +934,7 @@ section {
       rgba(124, 34, 212, 0.92) 38%,
       rgba(74, 26, 140, 0.98) 100%
     ),
-    linear-gradient(135deg, #4a1a8c, #7c22d4);
+    linear-gradient(135deg, var(--purple-dark), var(--purple-main));
   box-shadow: 0 18px 50px rgba(26, 10, 46, 0.28),
     0 0 0 4px rgba(255, 210, 77, 0.08);
   text-decoration: none;
