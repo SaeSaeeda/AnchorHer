@@ -12,9 +12,16 @@
       :root {
         --bg-1: #140928;
         --bg-2: #271246;
-        --purple-1: #3e1b5b;
-        --purple-2: #615de6;
-        --purple-3: #7c4d93;
+        --purple-dark: #4a1a8c;
+        --purple-main: #7c22d4;
+        --purple-vivid: #9333ea;
+        --purple-bright: #a855f7;
+        --purple-mid: #b57bee;
+        --purple-light: #d8b4fe;
+        --purple-pale: #f3e8ff;
+        --purple-1: var(--purple-dark);
+        --purple-2: var(--purple-main);
+        --purple-3: var(--purple-vivid);
         --gold: #c9a84c;
         --gold-soft: #f5cb52;
         --text: #fffdf8;
@@ -138,7 +145,7 @@
           var(--purple-1) 0%,
           var(--purple-2) 42%,
           var(--purple-3) 72%,
-          var(--purple-mid) 100%
+          var(--purple-bright) 100%
         );
         box-shadow: 0 12px 38px rgba(20, 9, 40, 0.42);
       }
